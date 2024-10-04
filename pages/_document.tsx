@@ -11,6 +11,7 @@ export default function Document() {
         />
         <Script
           type="text/javascript"
+          strategy="beforeInteractive"
           src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9cc2180d1a6fff2ed649d23c22fe9e83&libraries=services&autoload=false"
         />
         <Script
